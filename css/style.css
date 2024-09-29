@@ -1,0 +1,60 @@
+/*Base*/
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgba(73, 52, 52, 0.728);
+    text-align: justify;
+    line-height: 2;
+    font-size: 20px;
+    font-family: "Kalam", cursive, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Links - kol kas nenustatinėju, nes yra tik navigacijoje, kaip mygtukai*/
+
+/*Headings*/
+
+h1,h2{
+    text-align: center;
+    color: rgba(73, 52, 52, 0.728);/*Sutampa su viso teksto kol kas, pakeisiu*/
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: left;
+    color: rgba(73, 52, 52, 0.728);/*Sutampa su viso teksto kol kas, pakeisiu*/
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a.button{
+    display: inline-block; /*Leidžia nuorodai veikti kaip bloko elementui, kad būtų galima pritaikyti padding ir kitas stilizavimo savybes*/
+    padding: 10px 30px;
+    background-color: rgb(236, 234, 234);
+    color: rgba(73, 52, 52, 0.728);
+    text-align: center;
+    text-decoration: none; /*Pašalina pabraukimą*/
+    border-radius: 5px; /*Nustato suapvalintus kampus*/
+    font-size: 0.9em;
+}
+
+a.button:hover{
+    background-color: rgb(176, 175, 175);
+}
+
+section :nth-child(2n+1){
+    background-color: rgb(236, 234, 234);
+}
